@@ -15,4 +15,6 @@ public class ShopDto {
     private int id;
     private int price;
     private String title;
+    private String writer;
+    private String content;
 }
