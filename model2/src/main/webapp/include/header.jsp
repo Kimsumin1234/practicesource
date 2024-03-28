@@ -47,7 +47,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="<c:url value="/css/sidebars.css"/>" rel="stylesheet" />
+    <%-- <link href="<c:url value="/css/sidebars.css"/>" rel="stylesheet" /> --%>
   </head>
   <body>
     <!-- 아이콘 정의 -->
@@ -113,7 +113,7 @@
         <hr />
         <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link text-white" aria-current="page">
+            <a href="<c:url value="/list.do"/>" class="nav-link text-white" aria-current="page">
               <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#list" /></svg>
               상품목록
             </a>
